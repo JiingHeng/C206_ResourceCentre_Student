@@ -194,12 +194,13 @@ public class ResourceCentre {
 
 	}
 
-	public static void addChromebook(ArrayList<Chromebook> chromebookList, Chromebook cb) {
-		// write your code here
-		chromebookList.add(cb);
-		System.out.println("Chromebook added");
-	}
-
+	// done by haziq 
+		public static void addChromebook(ArrayList<Chromebook> chromebookList, Chromebook cb) {
+			chromebookList.add(cb);
+			System.out.println("Chromebook added");
+		}
+		
+		
 	// ================================= Option 3 Loan an item (CRUD - Update)
 	// =================================
 	public static boolean doLoanCamcorder(ArrayList<Camcorder> camcorderList, String tag, String dueDate) {
