@@ -249,7 +249,7 @@ public class ResourceCentre {
         return isLoaned;
     }
     
-    //Jiing Heng did this
+    //Jiing Heng done this
     public static void loanChromebook(ArrayList<Chromebook> chromebookList) { 
         // write your code here
         ResourceCentre.viewAllChromebook(chromebookList); //To view all the items in chrombookList
