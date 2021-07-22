@@ -230,7 +230,8 @@ public class ResourceCentre {
 		}
 	}
 	
-	public static boolean doLoanChromebook(ArrayList<Chromebook> chromebookList, String tag, String dueDate) { //Jiing Heng did this
+	//Jiing Heng did this
+	public static boolean doLoanChromebook(ArrayList<Chromebook> chromebookList, String tag, String dueDate) { 
 		// write your code here
 //		ArrayList<Chromebook> chromebookList2 = new ArrayList<Chromebook>();
 		boolean isLoaned = false;  //Create a variable isLoaned to store whether the book is loan in boolean.
@@ -247,7 +248,9 @@ public class ResourceCentre {
 		}
 		return isLoaned;
 	}
-	public static void loanChromebook(ArrayList<Chromebook> chromebookList) { //Jiing Heng did this
+	
+	//Jiing Heng did this
+	public static void loanChromebook(ArrayList<Chromebook> chromebookList) { 
 		// write your code here
 
 		ResourceCentre.viewAllChromebook(chromebookList); //To view all the items in chrombookList
