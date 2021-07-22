@@ -189,7 +189,7 @@ public class ResourceCentre {
 			String description = Helper.readString("Enter description > ");
 			String os = Helper.readString("Enter optical os > ");
 
-			Chromebook cb = new Chromebook(tag, description, os);
+			cb = new Chromebook(tag, description, os);
 		return cb;
 
 	}
