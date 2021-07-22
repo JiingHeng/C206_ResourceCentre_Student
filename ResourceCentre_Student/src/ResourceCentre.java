@@ -230,7 +230,7 @@ public class ResourceCentre {
 		}
 	}
 	
-	//Jiing Heng did this
+	//Jiing Heng done this
     public static boolean doLoanChromebook(ArrayList<Chromebook> chromebookList, String tag, String dueDate) { 
         // write your code here
     	// ArrayList<Chromebook> chromebookList2 = new ArrayList<Chromebook>();
